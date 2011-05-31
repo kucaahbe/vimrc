@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-echo DEBUG
-
 if [ -n "$*" ]
 then
   params="$*"
@@ -9,4 +7,7 @@ else
   params="."
 fi
 
-gvim --remote-silent $params
+escaped_pwd=`echo $PWD | sed -e 's/\s/\\\\ /'`
+#echo $escaped_pwd
+
+gvim --remote-tab-silent +cd\ "$escaped_pwd" $params
