@@ -2,6 +2,8 @@
 set nocompatible
 syntax on
 
+set helpheight=30
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
