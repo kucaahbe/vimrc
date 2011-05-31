@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+echo DEBUG
+
+if [ -n "$*" ]
+then
+  params="$*"
+else
+  params="."
+fi
+
+gvim --remote-silent $params
