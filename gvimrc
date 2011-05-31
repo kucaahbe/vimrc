@@ -4,6 +4,8 @@ set guioptions-=T "the toolbar is not displayed
 set vb t_vb=      " When no beep or flash is wanted
 set guifont=Terminus\ 10
 
+colorscheme anotherdark
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
