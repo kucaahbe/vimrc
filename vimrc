@@ -10,7 +10,3 @@ set helpheight=30
 if filereadable($HOME."/.vimrc.local")
   source $HOME/.vimrc.local
 endif
-
-if filereadable($HOME."/.gvimrc.local")
-  source $HOME/.gvimrc.local
-endif
