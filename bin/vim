@@ -5,9 +5,10 @@ then
   params="$*"
 else
   params="."
+  add_cmd="|e ."
 fi
 
 escaped_pwd=`echo $PWD | sed -e 's/\s/\\\\ /'`
-#echo $escaped_pwd
+full_cmd="cd\ $escaped_pwd$add_cmd"
 
-gvim --remote-tab-silent +cd\ "$escaped_pwd" $params
+gvim --remote-tab-silent +"$full_cmd" $params
