@@ -11,4 +11,4 @@ fi
 escaped_pwd=`echo $PWD | sed -e 's/\s/\\\\ /'`
 full_cmd="cd\ $escaped_pwd$add_cmd"
 
-gvim --remote-tab-silent +"$full_cmd" $params
+gvim -geometry 170x73+20+100 --remote-tab-silent +"$full_cmd" $params
