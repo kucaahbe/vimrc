@@ -5,8 +5,10 @@ set vb t_vb=      " When no beep or flash is wanted
 set guifont=Terminus\ 10
 
 colorscheme anotherdark
-
-highlight LineNr guibg=#3d3d3d guifg=#616161 " line numbers coloring
+" line numbers coloring
+highlight LineNr guibg=#3d3d3d guifg=#616161
+" Cursor
+highlight CursorLine guibg=#616161
 
 " ----------------------------
 "     Misc local settings
