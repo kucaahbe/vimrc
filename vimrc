@@ -1,6 +1,7 @@
 " vim filetype=vim
 set nocompatible
 syntax on
+colorscheme desert
 
 set helpheight=30
 
