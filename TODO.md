@@ -1,4 +1,3 @@
-# add line numbers to left
 # add cursor line
 # fix rails-vim error
 # add autoindenting with spaces

@@ -6,6 +6,8 @@ set guifont=Terminus\ 10
 
 colorscheme anotherdark
 
+highlight LineNr guibg=#3d3d3d guifg=#616161 " line numbers coloring
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------

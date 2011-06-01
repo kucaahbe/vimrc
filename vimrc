@@ -8,6 +8,8 @@ call pathogen#runtime_append_all_bundles()
 syntax on
 colorscheme desert
 
+set number " print the line number in front of each line
+
 set helpheight=30
 
 " ----------------------------
