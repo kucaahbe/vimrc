@@ -6,16 +6,16 @@ call pathogen#runtime_append_all_bundles()
 " common colorizing:
 syntax on
 colorscheme desert
-" Enabling filetype plugin:
+" enabling filetype plugin:
 filetype plugin indent on
 " print the line number in front of each line
 set number
-" Help
+" help
 set helpheight=30
-" Indent
+" indent
 set smartindent
 set shiftwidth=2 " default shift for indent
-" Cursor
+" cursor
 set cursorline
 " search
 set hlsearch
