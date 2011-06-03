@@ -17,7 +17,8 @@ set smartindent
 set shiftwidth=2 " default shift for indent
 " Cursor
 set cursorline
-
+" search
+set hlsearch
 " ----------------------------
 "     Misc local settings
 " ----------------------------
