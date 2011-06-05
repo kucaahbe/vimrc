@@ -28,6 +28,9 @@ set cursorline
 " search
 set hlsearch
 
+" key mappings:
+map Q gQ " more user-friendly *Ex-mode*
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
