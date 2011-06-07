@@ -7,3 +7,6 @@
 [submodule "vim/bundle/common-tips"]
 	path = vim/bundle/common-tips
 	url = git://kuca@todo
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = git://github.com/hallison/vim-markdown.git
