@@ -31,6 +31,9 @@ set hlsearch
 " key mappings:
 map Q gQ " more user-friendly *Ex-mode*
 
+" Russian support:
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
