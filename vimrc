@@ -1,5 +1,7 @@
 set nocompatible
 
+set guioptions+=M "the default menus are not loaded(should be BEFORE syntax or filetype 'on')
+
 " pathogen setup:
 filetype off
 call pathogen#helptags()
