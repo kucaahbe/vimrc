@@ -33,6 +33,10 @@ set hlsearch
 " key mappings:
 map Q gQ " more user-friendly *Ex-mode*
 
+" windows settings
+set nosplitbelow
+set splitright
+
 " Russian support:
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz
 
