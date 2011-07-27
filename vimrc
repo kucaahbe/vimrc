@@ -7,9 +7,28 @@ filetype off
 call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
 
-" common colorizing:
+" enabling syntax highlighting:
 syntax on
-colorscheme desert
+
+" terminal settings:
+if !has('gui_running')
+  if &term =~ "xterm"
+    if has("terminfo")
+      set t_Co=256
+
+      colorscheme desert256
+      highlight LineNr ctermbg=232 ctermfg=0
+      highlight CursorLine ctermbg=234 cterm=none
+    endif
+  elseif &term =~ "linux"
+    if has("terminfo")
+      set t_Co=8
+
+      colorscheme desert
+      highlight LineNr ctermbg=0 ctermfg=7
+    endif
+  endif
+endif
 
 " enabling filetype plugin:
 filetype plugin indent on
