@@ -39,6 +39,9 @@ set number
 " help
 set helpheight=30
 
+" tab
+set expandtab
+
 " indent
 set smartindent
 set shiftwidth=2 " default shift for indent
@@ -57,7 +60,7 @@ set nosplitbelow
 set splitright
 
 " Russian support:
-set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж.;:/
+set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
 " ----------------------------
 "     Misc local settings
