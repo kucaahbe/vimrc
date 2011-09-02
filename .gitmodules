@@ -6,7 +6,7 @@
 	url = git://github.com/tpope/vim-rails.git
 [submodule "vim/bundle/common-tips"]
 	path = vim/bundle/common-tips
-	url = git://kuca@todo
+	url = git://github.com/kucaahbe/vim-common-tips.git
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = git://github.com/hallison/vim-markdown.git
