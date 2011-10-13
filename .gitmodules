@@ -34,3 +34,6 @@
 [submodule "vim/snippets"]
 	path = vim/snippets
 	url = git://github.com/kucaahbe/vim-snippets.git
+[submodule "vim/bundle/vim-javascript"]
+	path = vim/bundle/vim-javascript
+	url = git://github.com/pangloss/vim-javascript.git
