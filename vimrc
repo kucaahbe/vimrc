@@ -50,6 +50,9 @@ set shiftwidth=2 " default shift for indent
 " cursor
 set cursorline
 
+" completion
+set complete=.,w,b,i
+
 " search
 set hlsearch
 
