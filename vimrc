@@ -66,6 +66,8 @@ set splitright
 " Russian support:
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
+au BufRead,BufNewFile /etc/nginx/*              set filetype=nginx
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
