@@ -39,7 +39,7 @@
 	url = git://github.com/pangloss/vim-javascript.git
 [submodule "vim/bundle/vim-puppet"]
 	path = vim/bundle/vim-puppet
-	url = git://github.com/puppetlabs/syntax-vim.git
+	url = git://github.com/puppetlabs/puppet-syntax-vim.git
 [submodule "vim/bundle/vim-nginx"]
 	path = vim/bundle/vim-nginx
 	url = git://github.com/jinfield/vim-nginx.git
