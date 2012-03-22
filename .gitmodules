@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vim-nginx"]
 	path = vim/bundle/vim-nginx
 	url = git://github.com/jinfield/vim-nginx.git
+[submodule "vim/bundle/vim-textile"]
+	path = vim/bundle/vim-textile
+	url = git://github.com/timcharper/textile.vim.git
