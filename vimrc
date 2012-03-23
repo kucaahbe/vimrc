@@ -68,6 +68,9 @@ set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNO
 
 au BufRead,BufNewFile /etc/nginx/*              set filetype=nginx
 
+" nerdtree settings
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if the only window left open is a nerdtree
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
