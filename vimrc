@@ -74,6 +74,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " vim-rails settings
 autocmd BufRead,BufNewFile app/controllers/*_controller.rb set filetype=ruby.rails.rails-controller
 autocmd BufRead,BufNewFile app/models/*.rb                 set filetype=ruby.rails.rails-model
+autocmd BufRead,BufNewFile Gemfile,Guardfile               set filetype=ruby
+autocmd BufRead,BufNewFile *_spec.rb                       set filetype=ruby.rspec
 
 " ----------------------------
 "     Misc local settings
