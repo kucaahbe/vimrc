@@ -76,6 +76,8 @@ autocmd BufRead,BufNewFile app/controllers/*_controller.rb set filetype=ruby.rai
 autocmd BufRead,BufNewFile app/models/*.rb                 set filetype=ruby.rails.rails-model
 autocmd BufRead,BufNewFile Gemfile,Guardfile               set filetype=ruby
 autocmd BufRead,BufNewFile *_spec.rb                       set filetype=ruby.rspec
+autocmd BufRead,BufNewFile [Rr]akefile{.rb}\=              set filetype=ruby.rake
+autocmd BufRead,BufNewFile *.rake                          set filetype=ruby.rake
 
 " ----------------------------
 "     Misc local settings
