@@ -78,6 +78,8 @@ autocmd BufRead,BufNewFile Gemfile,Guardfile               set filetype=ruby
 autocmd BufRead,BufNewFile *_spec.rb                       set filetype=ruby.rspec
 autocmd BufRead,BufNewFile [Rr]akefile{.rb}\=              set filetype=ruby.rake
 autocmd BufRead,BufNewFile *.rake                          set filetype=ruby.rake
+autocmd BufRead,BufNewFile *.scss                          set filetype=scss
+autocmd BufRead,BufNewFile *.scss.erb                      set filetype=scss.eruby
 
 " ----------------------------
 "     Misc local settings
