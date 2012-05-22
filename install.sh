@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# submodules
+git submodule update --init
+
 DIR=`dirname $(readlink -f $0)`
 # vim config directory
 ln -sfv -T $DIR/vim ~/.vim
