@@ -61,6 +61,10 @@ map Q gQ " more user-friendly *Ex-mode*
 set nosplitbelow
 set splitright
 
+" trailing
+syntax match TrailingSpaces /\s\+$/
+highlight link TrailingSpaces Error
+
 " Russian support:
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
