@@ -65,6 +65,9 @@ set splitright
 syntax match TrailingSpaces /\s\+$/
 highlight link TrailingSpaces Error
 
+" enable spelling
+set spell
+
 " Russian support:
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
