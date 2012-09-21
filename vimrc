@@ -64,6 +64,8 @@ set splitright
 " trailing
 syntax match TrailingSpaces /\s\+$/
 highlight link TrailingSpaces Error
+" search
+" vmap / y/<C-R>"<CR>
 
 " enable spelling
 "set spell
