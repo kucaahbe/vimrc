@@ -61,11 +61,12 @@ map Q gQ " more user-friendly *Ex-mode*
 set nosplitbelow
 set splitright
 
-" trailing
-syntax match TrailingSpaces /\s\+$/
-highlight link TrailingSpaces Error
 " search
 " vmap / y/<C-R>"<CR>
+
+" trailing spaces
+autocmd BufReadPost * syntax match TrailingSpaces /\s\+$/ contained
+autocmd BufReadPost * highlight link TrailingSpaces SpellBad
 
 " enable spelling
 "set spell
