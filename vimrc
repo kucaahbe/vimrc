@@ -74,20 +74,21 @@ autocmd BufReadPost * highlight link TrailingSpaces SpellBad
 " Russian support:
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
-au BufRead,BufNewFile /etc/nginx/*              set filetype=nginx
-
 " nerdtree settings
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if the only window left open is a nerdtree
+
+" === misc filetypes settings:
 
 " vim-rails settings
 autocmd BufRead,BufNewFile app/controllers/*_controller.rb set filetype=ruby.rails.rails-controller
 autocmd BufRead,BufNewFile app/models/*.rb                 set filetype=ruby.rails.rails-model
 autocmd BufRead,BufNewFile Gemfile,Guardfile               set filetype=ruby
 autocmd BufRead,BufNewFile *_spec.rb                       set filetype=ruby.rspec
-autocmd BufRead,BufNewFile [Rr]akefile{.rb}\=              set filetype=ruby.rake
-autocmd BufRead,BufNewFile *.rake                          set filetype=ruby.rake
-autocmd BufRead,BufNewFile *.scss                          set filetype=scss
-autocmd BufRead,BufNewFile *.scss.erb                      set filetype=scss.eruby
+autocmd BufRead,BufNewFile [Rr]akefile{.rb}\=,*.rake       set filetype=ruby.rake
+autocmd BufRead,BufNewFile *{.css}\=.scss                  set filetype=scss.css
+autocmd BufRead,BufNewFile *.scss.erb                      set filetype=scss.css.eruby
+
+autocmd BufRead,BufNewFile /etc/nginx/*                    set filetype=nginx.conf
 
 " ----------------------------
 "     Misc local settings
