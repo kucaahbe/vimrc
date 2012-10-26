@@ -9,6 +9,10 @@ highlight LineNr guibg=#3d3d3d guifg=#616161
 " Cursor
 highlight CursorLine guibg=#616161
 
+" tabs move with shift- right/left
+map <S-Right> gt
+map <S-Left> gT
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
