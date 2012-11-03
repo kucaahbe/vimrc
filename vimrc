@@ -90,6 +90,8 @@ autocmd BufRead,BufNewFile *.scss.erb                      set filetype=scss.css
 
 autocmd BufRead,BufNewFile /etc/nginx/*                    set filetype=nginx.conf
 
+autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.android-xml
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
