@@ -92,6 +92,12 @@ autocmd BufRead,BufNewFile /etc/nginx/*                    set filetype=nginx.co
 
 autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.android-xml
 
+" utility part
+
+" toggle spelling with Ctrl-s
+imap <C-s> <Esc>:set invspell<CR>i<Right>
+nmap <C-s> :set invspell<CR>
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
