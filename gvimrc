@@ -12,6 +12,8 @@ highlight CursorLine guibg=#616161
 " tabs move with shift- right/left
 map <S-Right> gt
 map <S-Left> gT
+imap <S-Right> <C-PageUp>
+imap <S-Left> <C-PageDown>
 
 " ----------------------------
 "     Misc local settings

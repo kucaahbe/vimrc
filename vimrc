@@ -94,6 +94,8 @@ autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.andr
 
 " utility part
 
+" tabs, see gvimrc
+
 " toggle spelling with Ctrl-s
 imap <C-s> <Esc>:set invspell<CR>i<Right>
 nmap <C-s> :set invspell<CR>
