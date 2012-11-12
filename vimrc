@@ -97,6 +97,8 @@ autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.andr
 " toggle spelling with Ctrl-s
 imap <C-s> <Esc>:set invspell<CR>i<Right>
 nmap <C-s> :set invspell<CR>
+" Sudo write :)
+cmap Sw w !sudo tee %
 
 " ----------------------------
 "     Misc local settings
