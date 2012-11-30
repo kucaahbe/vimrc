@@ -101,6 +101,8 @@ imap <C-s> <Esc>:set invspell<CR>i<Right>
 nmap <C-s> :set invspell<CR>
 " Sudo write :)
 cmap Sw w !sudo tee %
+" copy/paste
+vmap <C-c> "+y
 
 " ----------------------------
 "     Misc local settings
