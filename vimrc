@@ -75,7 +75,9 @@ autocmd BufReadPost * highlight link TrailingSpaces SpellBad
 set langmap=ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz,Ж;:
 
 " nerdtree settings
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if the only window left open is a nerdtree
+let NERDTreeWinPos="right"
+let NERDTreeLynxMotion=1
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if the only window left open is a nerdtree
 
 " === misc filetypes settings:
 
