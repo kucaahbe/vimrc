@@ -89,6 +89,7 @@ autocmd BufRead,BufNewFile *_spec.rb                       set filetype=ruby.rsp
 autocmd BufRead,BufNewFile [Rr]akefile{.rb}\=,*.rake       set filetype=ruby.rake
 autocmd BufRead,BufNewFile *{.css}\=.scss                  set filetype=scss.css
 autocmd BufRead,BufNewFile *.scss.erb                      set filetype=scss.css.eruby
+autocmd BufRead,BufNewFile *.hamlc                         set filetype=haml
 
 autocmd BufRead,BufNewFile /etc/nginx/*                    set filetype=nginx.conf
 
