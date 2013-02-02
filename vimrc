@@ -94,6 +94,9 @@ autocmd BufRead,BufNewFile *.hamlc                         set filetype=haml
 autocmd BufRead,BufNewFile /etc/nginx/*                    set filetype=nginx.conf
 
 autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.android-xml
+" javascript settings
+autocmd FileType javascript :setl omnifunc=jscomplete#CompleteJS
+let g:jscomplete_use = ['dom', 'moz']
 
 " utility part
 
