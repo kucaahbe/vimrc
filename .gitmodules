@@ -10,15 +10,6 @@
 [submodule "vim/bundle/vim-markdown"]
 	path = vim/bundle/vim-markdown
 	url = git://github.com/hallison/vim-markdown.git
-[submodule "vim/bundle/snipmate"]
-	path = vim/bundle/snipmate
-	url = git://github.com/garbas/vim-snipmate.git
-[submodule "vim/bundle/tlib_vim"]
-	path = vim/bundle/tlib_vim
-	url = git://github.com/tomtom/tlib_vim.git
-[submodule "vim/bundle/vim-addon-mw-utils"]
-	path = vim/bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
 [submodule "vim/bundle/vim-haml"]
 	path = vim/bundle/vim-haml
 	url = git://github.com/tpope/vim-haml.git
@@ -58,3 +49,6 @@
 [submodule "vim/bundle/jscomplete-vim"]
 	path = vim/bundle/jscomplete-vim
 	url = git://github.com/teramako/jscomplete-vim.git
+[submodule "vim/bundle/ultisnips"]
+	path = vim/bundle/ultisnips
+	url = git://github.com/SirVer/ultisnips.git
