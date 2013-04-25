@@ -113,6 +113,12 @@ cmap Sw w !sudo tee %
 " copy/paste
 vmap <C-c> "+y
 
+inoremap '' ''<Left>
+inoremap "" ""<Left>
+inoremap () ()<Left>
+inoremap {} {  }<Left><Left>
+inoremap \|\| \|\|<Left>
+
 " ----------------------------
 "     Misc local settings
 " ----------------------------
