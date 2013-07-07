@@ -127,6 +127,11 @@ inoremap \|\| \|\|<Left>
 " ----------------------------
 "     Misc local settings
 " ----------------------------
+
+
+" replace old-style ruby hashes with new style
+nmap R :%s/:\<\(\w\+\)\>\s*=>/\1:/g<CR>
+
 if filereadable($HOME."/.vimrc.local")
   source $HOME/.vimrc.local
 endif
