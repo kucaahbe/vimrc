@@ -1,7 +1,12 @@
 set guioptions-=m "the menubar is not displayed
 set guioptions-=T "the toolbar is not displayed
 set vb t_vb=      " When no beep or flash is wanted
-set guifont=Terminus\ 10
+" install bdg font into ~/.fonts
+" enable there bitmap fonts(for terminus too):
+" sudo dpkg-reconfigure fontconfig-config
+" fc-cache -fv
+" fc-list
+set guifont=Terminus\ 14
 
 colorscheme anotherdark
 " line numbers coloring
