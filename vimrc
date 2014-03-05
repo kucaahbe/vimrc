@@ -101,7 +101,7 @@ autocmd BufRead,BufNewFile res/layout/*.xml                set filetype=xml.andr
 autocmd FileType javascript :setl omnifunc=jscomplete#CompleteJS
 let g:jscomplete_use = ['dom', 'moz']
 
-autocmd BufRead,BufNewFile *.bats                         set filetype=sh
+autocmd BufRead,BufNewFile *.bats                         set filetype=sh.bats
 
 " C and related
 autocmd BufRead,BufNewFile *.l                            set filetype=lex.c
