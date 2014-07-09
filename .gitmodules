@@ -46,9 +46,6 @@
 [submodule "vim/bundle/textile.vim"]
 	path = vim/bundle/textile.vim
 	url = git://github.com/timcharper/textile.vim.git
-[submodule "vim/bundle/jscomplete-vim"]
-	path = vim/bundle/jscomplete-vim
-	url = git://github.com/teramako/jscomplete-vim.git
 [submodule "vim/bundle/ultisnips"]
 	path = vim/bundle/ultisnips
 	url = git://github.com/SirVer/ultisnips.git
