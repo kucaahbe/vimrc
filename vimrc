@@ -54,12 +54,12 @@ set complete=.,w,b,i
 " search
 set hlsearch
 
-" key mappings:
-map Q gQ " more user-friendly *Ex-mode*
-
 " windows settings
 set nosplitbelow
 set splitright
+
+" key mappings:
+map Q gQ " more user-friendly *Ex-mode*
 
 " search
 " vmap / y/<C-R>"<CR>
