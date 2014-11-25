@@ -1,11 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 set -e
+
+# portable way to get script dir,
+# found here http://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself/20265654
+pushd `dirname $0` > /dev/null
+SCRIPTPATH=`pwd -P`
+popd > /dev/null
 
 git submodule update --init
 
-DIR=`dirname $(readlink -f $0)`
-
+DIR=$SCRIPTPATH
 VIMDIR=$HOME/.vim
+
 if [ ! -L $VIMDIR -a \( -d $VIMDIR -o -f $VIMDIR \) ]; then
   echo file $VIMDIR exists, please remove it
   exit 1
