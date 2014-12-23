@@ -58,3 +58,6 @@
 [submodule "vim/bundle/vim-vala"]
 	path = vim/bundle/vim-vala
 	url = git://github.com/tkztmk/vim-vala.git
+[submodule "vim/bundle/vim-json"]
+	path = vim/bundle/vim-json
+	url = git://github.com/elzr/vim-json.git
