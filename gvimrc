@@ -28,6 +28,12 @@ map <S-Right> gt
 map <S-Left> gT
 imap <S-Right> <C-PageDown>
 imap <S-Left> <C-PageUp>
+if has('mac')
+  " Cmd-c copy to global clipboard
+  vmap <D-c> "*y
+  " Cmd-v paste from global clipboard
+  map <D-v> "*p
+endif
 
 " ----------------------------
 "     Misc local settings
