@@ -32,7 +32,9 @@ if has('mac')
   " Cmd-c copy to global clipboard
   vmap <D-c> "*y
   " Cmd-v paste from global clipboard
-  map <D-v> "*p
+  map  <D-v> "*p
+  imap <D-v> <Esc>"*pa
+  cmap <D-v> <C-r>*
 endif
 
 " ----------------------------
