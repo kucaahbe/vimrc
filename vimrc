@@ -80,7 +80,7 @@ let NERDTreeLynxMotion=1
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif " close vim if the only window left open is a nerdtree
 
 " ultisnips settings
-let g:UltiSnipsSnippetDirectories=["snippets"]
+let g:UltiSnipsSnippetDirectories=["vim-snippets"]
 
 " === misc filetypes settings:
 
