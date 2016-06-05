@@ -22,4 +22,5 @@ fi
 [ -L $VIMDIR ] && rm -v $VIMDIR
 ln -sfv $DIR/vim    $VIMDIR
 ln -sfv $DIR/vimrc  ~/.vimrc
+ln -sfv $DIR/vimplugs  ~/.vimplugs
 ln -sfv $DIR/gvimrc ~/.gvimrc

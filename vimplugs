@@ -1,0 +1,17 @@
+" vim:ft=vim
+
+" minimal sensible defaults
+Plug 'tpope/vim-sensible'
+
+" pack with tons for filetypes/indentations etc.
+Plug 'sheerun/vim-polyglot'
+
+Plug 'tmhedberg/matchit'
+
+Plug 'kucaahbe/nerdtree'
+
+Plug 'SirVer/ultisnips'
+
+Plug 'tpope/vim-fugitive'
+
+Plug 'tpope/vim-rails'

@@ -1,2 +1,3 @@
-vim/backup/*
-vim/.netrwhist
+/vim/backup/*
+/vim/.netrwhist
+/vim/plugged/
