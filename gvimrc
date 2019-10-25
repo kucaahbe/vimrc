@@ -1,6 +1,5 @@
 set guioptions-=m "the menubar is not displayed
 set guioptions-=T "the toolbar is not displayed
-set guioptions-=e "do not use GUI tabs, use text tabs instead
 set vb t_vb=      " When no beep or flash is wanted
 
 if has('mac')

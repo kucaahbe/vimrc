@@ -15,3 +15,6 @@ Plug 'SirVer/ultisnips'
 Plug 'tpope/vim-fugitive'
 
 Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+
+Plug 'danro/rename.vim'
