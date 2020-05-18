@@ -13,7 +13,8 @@ else
   " sudo dpkg-reconfigure fontconfig-config
   " fc-cache -fv
   " fc-list
-  set guifont=Terminus\ 14
+  " use set guifont=* in order to open font choose dialog
+  set guifont=Terminus\ (TTF)\ Medium\ 15
 endif
 
 colorscheme anotherdark
