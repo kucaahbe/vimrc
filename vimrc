@@ -38,8 +38,10 @@ nmap <C-s> :set invspell<CR>
 
 inoremap '' ''<Left>
 inoremap "" ""<Left>
-inoremap () ()<Left>
-inoremap {} { }<Left><Left>
+inoremap (( ()<Left>
+inoremap {{ {}<Left>
+inoremap [[ []<Left>
+inoremap {{{ {  }<Left><Left>
 
 if filereadable($HOME."/.vimrc.local")
   source $HOME/.vimrc.local
