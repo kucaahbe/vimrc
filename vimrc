@@ -43,6 +43,10 @@ inoremap {{ {}<Left>
 inoremap [[ []<Left>
 inoremap {{{ {  }<Left><Left>
 
+autocmd BufNewFile,BufRead *.js.erb set ft=javascript.eruby
+autocmd BufNewFile,BufRead *.es6.erb set ft=javascript.eruby
+autocmd BufNewFile,BufRead *_spec.rb set ft=ruby.rspec
+
 if filereadable($HOME."/.vimrc.local")
   source $HOME/.vimrc.local
 endif
