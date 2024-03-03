@@ -1,0 +1,12 @@
+install {
+  exec "git submodule -q sync --recursive"
+  exec "git submodule -q update --init" {
+    creates:file `vim/vim-snippets/.git`
+    creates:file `vim-plug/.git`
+  }
+
+  ln `vim`       `~/.vim`
+  ln `vimrc`     `~/.vimrc`
+  ln `vimplugs`  `~/.vimplugs`
+  ln `gvimrc`    `~/.gvimrc`
+}
