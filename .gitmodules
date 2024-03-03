@@ -1,6 +1,6 @@
 [submodule "vim/vim-snippets"]
 	path = vim/vim-snippets
-	url = git://github.com/kucaahbe/vim-snippets.git
+	url = git@github.com:kucaahbe/vim-snippets.git
 [submodule "vim-plug"]
 	path = vim-plug
-	url = https://github.com/junegunn/vim-plug.git
+	url = git@github.com:junegunn/vim-plug.git
